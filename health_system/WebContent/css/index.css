@@ -1,0 +1,318 @@
+/*顶部导航栏-begin*/
+.header {
+    background-color: #000;
+    height: 3rem;
+    width: 100%;
+}
+
+.header > nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > nav .nav-left {
+    width: 11rem;
+    height: 100%;
+}
+
+.header > nav .nav-left > h1 {
+    box-sizing: border-box;
+    width: 12.5rem;
+    height: 3rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    line-height: 3rem;
+}
+
+
+.header > nav .nav-left > h1 a{
+    font-family: 'logo' !important;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.header > nav .nav-center {
+    width: 30rem;
+    height: 100%;
+}
+
+.header > nav .nav-center > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header > nav .nav-center > ul > li {
+    width: 4rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.header > nav .nav-center > ul > li > a {
+    color: #ffffff;
+}
+
+.header > nav .nav-center > ul > li > a:hover {
+    color: #0000ff;
+}
+
+.header > nav .nav-right {
+    width: 9.5rem;
+    height: 100%;
+}
+
+.header > nav .nav-right > ul {
+    display: flex;
+    justify-content:space-between;
+    padding-right: 1rem;
+}
+
+.header > nav .nav-right > ul > li {
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+.header > nav .nav-right > ul > li:first-child {
+    min-width: 2rem;
+    flex:1;
+    margin-right:0.5rem;
+}
+.header > nav .nav-right > ul > li:last-child {
+    width:3.5rem;
+}
+
+.header > nav .nav-right > ul > li > a {
+    color: #999;
+}
+
+.header > nav .nav-right > ul > li > a:hover {
+    color: #0000ff;
+}
+.header > nav .nav-right > ul > li > a i {
+    vertical-align: middle;
+    font-size: 1.3rem;
+}
+
+.header > nav .nav-right > ul > li:first-of-type > a i {
+    font-size: 1.6rem;
+}
+/*顶部导航栏-end*/
+
+/*轮播图样式-begin*/
+.swiper {
+    width: 100%;
+    height: 25rem;
+}
+
+/*轮播图样式-end*/
+
+/*主内容区-begin*/
+
+.motto{
+    height: 6rem;
+    text-align: center;
+    line-height: 6rem;
+}
+.motto span{
+    padding: 0.7rem 5rem;
+    border:0.05rem solid #ff6e64;
+    border-radius: 0.4rem;
+    color: #ff6e64;
+}
+
+.widget-index-topics a{
+	color:#333;
+	font-size: 0.7rem;
+}
+.widget-index-topics a:hover{
+	color:#ff6e64;
+}
+
+.widget-index-tools {
+    padding: 1.5rem 0;
+    background: #ff6e64;
+}
+
+.widget-index-tools .widget-title {
+    color: #fff;
+    height: 1.2rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.widget-title h2 {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 0.15rem;
+    font-weight: 600;
+}
+
+.widget-title h2 span + span {
+    display: block;
+    width: 3.2rem;
+    height: 0.1rem;
+    margin: 0.5rem auto;
+    background: #fff;
+}
+
+.red-line {
+    background: #ff6e64 !important;
+}
+
+.widget-index-tools .container, .widget-index-topics .container {
+    width: 60rem;
+    margin: 1rem auto;
+}
+
+.widget-index-tools .container .row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.widget-index-tools .item {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 20rem;
+    height: 10rem;
+}
+
+.widget-index-tools .item a {
+    display: block;
+    width: 5.5rem;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.24);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%
+}
+
+.widget-index-tools .item h3 {
+    font-size: 0.7rem;
+    margin-top: 1.3rem;
+    margin-bottom: 0.65rem;
+}
+
+.widget-index-tools .item p {
+    font-size: 0.6rem;
+}
+
+.widget-index-knowledge .knowledge-block {
+    background: #DCDCDC;
+    color: #333
+}
+
+.widget-index-knowledge .knowledge-block .more {
+    font-size: 0.6rem;
+    border: 0.05rem solid #777;
+    border-radius: 1rem;
+    padding: 0.3rem 1.4rem
+}
+
+.widget-index-knowledge .knowledge-block .more:hover, .widget-index-knowledge .knowledge-block .more:focus {
+    color: #fff;
+    background: #f33;
+    border-color: #f33
+}
+
+.widget-index-knowledge .img-box {
+    padding: 0
+}
+
+.widget-index-knowledge .article {
+    padding: 2.25rem
+}
+
+@media screen and (min-width: 66.5rem) {
+    .widget-index-knowledge .article {
+        padding: 4rem 2.5rem
+    }
+}
+
+.widget-index-knowledge .article h2 {
+    margin: 0
+}
+
+.widget-index-knowledge .article h1 {
+    font-size: 1rem;
+    margin: 1rem 0 0.6rem
+}
+
+.widget-index-knowledge .article p {
+    font-size: 0.6rem;
+    line-height: 2;
+    margin-bottom: 1.25rem
+}
+
+.widget-index-knowledge .topic {
+    font-size: 0.7rem;
+    padding-left: 0.25rem;
+    border-left: 0.25rem solid #61cc73
+}
+
+.widget-index-knowledge img {
+    width: 100%;
+    height: auto
+}
+
+.widget-index-topics .widget-title {
+    height: 1.2rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.widget-index-topics .widget-title {
+}
+
+.widget-index-topics .img-title {
+    float: left;
+    width: 5.5rem
+}
+
+.widget-index-topics .img-title h2 {
+    margin: 1.75rem 0
+}
+
+.widget-index-topics .img-title img {
+    width: 100%
+}
+
+.widget-index-topics .topics {
+    float: left;
+    width: 100%;
+    margin: 0.75rem 0 3.5rem
+}
+
+.widget-index-topics .topics td {
+    width: 16.66667%;
+    padding: 0.5rem 0 0.5rem 0;
+    text-align: center;
+}
+
+
+/*主内容区-end*/
+
+/*底部区域-begin*/
+.footer {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #f2f2f2;
+    color: #666;
+    font-size: 0.7rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+/*底部区域-end*/

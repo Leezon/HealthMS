@@ -1,0 +1,341 @@
+body {
+    background: #fff;
+    color: #ff6e64 !important;
+}
+
+/*顶部导航栏-begin*/
+.header {
+    height: 6rem;
+    width: 100%;
+    background: linear-gradient(90deg, #ff6e64, #ff959e);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.header > nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > nav .nav-left {
+    width: 22rem;
+    height: 100%;
+}
+
+.header > nav .nav-left > h1 {
+    box-sizing: border-box;
+    width: 25rem;
+    height: 6rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    line-height: 6rem;
+}
+
+
+.header > nav .nav-left > h1 a{
+    font-family: 'logo' !important;
+    font-size: 4rem;
+    color: #f2f2f2;
+}
+
+.header > nav .nav-center {
+    width: 60rem;
+    height: 100%;
+}
+
+.header > nav .nav-center > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header > nav .nav-center > ul > li {
+    width: 8rem;
+    height: 6rem;
+    line-height: 6rem;
+    text-align: center;
+}
+
+.header > nav ul > li > a {
+    color: #ffffff;
+}
+
+.header > nav ul > li > a:hover {
+    color: #4c0807;
+}
+
+.header > nav .nav-right {
+    width: 20rem;
+    height: 100%;
+}
+
+.header > nav .nav-right > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.header > nav .nav-right > ul > li {
+    width: 8rem;
+    height: 6rem;
+    line-height: 6rem;
+    text-align: center;
+}
+.header > nav .nav-right > ul > li > a i {
+    vertical-align: middle;
+    font-size: 2.6rem;
+}
+
+.header > nav .nav-right > ul > li:first-of-type > a i {
+    font-size: 3.2rem;
+}
+
+/*顶部导航栏-end*/
+
+.main {
+    width: 96rem;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.main .content {
+    padding-top: 0 !important;
+    height: 100rem;
+    width: 66rem;
+    margin-top: 2rem;
+}
+
+.main .aside {
+    width: 28rem;
+    height: 100rem;
+    margin-top: 2rem;
+}
+
+.main .content .banner {
+    width: 100%;
+    height: 27rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.content .banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .section {
+    width: 100%;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-bottom: 0.1rem solid #eee;
+}
+
+.section .section-content {
+    width: 48rem;
+    height: 100%;
+}
+
+.section .section-content .title {
+    height: 3rem;
+    width: 100%;
+}
+
+.section .section-content .title > a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.section .section-content .title p {
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.section .section-content .text {
+    height: 8rem;
+    width: 100%;
+    padding-top: 0.5rem;
+    overflow: hidden;
+}
+
+.section .section-content .text p {
+    color: #999;
+    font-size: 1.4rem;
+}
+
+.section .section-content .bottom {
+    height: 3rem;
+    width: 100%;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.section-content .bottom ul {
+    display: flex;
+    align-items: center;
+}
+
+.section-content .bottom ul > li {
+    margin-right: 2rem;
+    height: 2.2rem;
+    color: #999;
+}
+
+.section-content .bottom ul > li a {
+    height: 2.2rem;
+    color: #999;
+    line-height: 2.2rem;
+}
+
+.section-content .bottom ul > li img {
+    height: 2.2rem;
+    width: 2.2rem;
+    vertical-align: middle;
+}
+
+.section-content .bottom ul > li span {
+    vertical-align: middle;
+}
+
+.bottom ul > li:first-child {
+    color: #ea6f5a;
+}
+
+.bottom ul > li:first-child span:first-child {
+    width: 1.8rem;
+    height: 2rem;
+    overflow: hidden;
+    margin-right: 0.3rem;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bottom ul > li:first-child span > img {
+    height: 1.8rem;
+    width: 4.5rem;
+}
+
+.section .section-img {
+    height: 12rem;
+    width: 16rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.section .section-img img {
+    height: 12rem;
+    width: 16rem;
+}
+
+.main .aside {
+    width: 28rem;
+    height: 100rem;
+    margin-top: 2rem;
+}
+
+.aside .aside-top {
+    width: 28rem;
+}
+
+.aside .aside-top img {
+    width: 100%;
+}
+
+.aside-bottom {
+    margin-top: 2rem;
+}
+
+.aside-bottom-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+
+.aside-bottom-center .author {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.aside-bottom-center-left {
+    flex: 1;
+
+}
+
+.aside-bottom-center-left > dl {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.aside-bottom-center-left > dl > dd {
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+.aside-bottom-center-left > dl img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.aside-bottom-center-left > dl .small {
+    font-size: 1.2rem;
+    color: #999;
+}
+
+.aside-bottom-center-right {
+    width: 5rem;
+}
+
+.aside-bottom-center-right > a {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    color: #42c02e;
+}
+
+.aside-bottom-bottom {
+    height: 4rem;
+    width: 100%;
+}
+
+.aside-bottom-bottom > a {
+    display: block;
+    height: 4rem;
+    width: 100%;
+    background-color: #c1c1c1;
+    text-align: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    line-height: 4rem;
+}
+
+/*底部区域-begin*/
+
+.footer {
+	margin-top:20px;
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: #f2f2f2;
+    color: #666;
+    font-size: 1.4rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+/*底部区域-end*/

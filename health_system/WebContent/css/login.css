@@ -1,0 +1,194 @@
+/**************公共样式-begin*************/
+.logon_reg {
+    width: 28rem;
+    border: 0.05rem solid #ff6e64;
+    margin: 2rem auto;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+input[type=text], input[type=password], input[type=tel], input[type=date], input[type=number], select{
+    width: 100%;
+    height: 2rem;
+    border: 0.05rem solid #ff6e64;
+    border-radius: 0.25rem;
+    margin-top: 0.25rem;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    height: 2rem;
+    color: #fff;
+    background-color: #ff6e64;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.kuaijie-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding: 0 2.5rem 1.5rem 2.5rem;
+}
+
+.kuaijie-title > span {
+    color: #ff6e64;
+
+}
+
+.kuaijie-title > span:before, .kuaijie-title > span:after {
+    content: "";
+    display: inline-block;
+    border-top: 0.05rem solid #ff6e64;
+    width: 4rem;
+    padding-bottom: 0.25rem;
+}
+
+.kuaijie-bottom .kuaijie-img {
+    margin-top: 1.5rem;
+}
+
+.kuaijie-bottom .kuaijie-img img {
+    width: 2.5rem;
+}
+
+input, select{
+    font-size: 0.75rem;
+}
+/***************公共样式-end**************/
+
+/*********登录注册头部选项卡-begin********/
+.logon_reg .top {
+    height: 2.5rem;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.logon_reg .top .top-login {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.logon_reg .top .top-register {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.logon_reg .top > a {
+    color: #333333;
+    font-size: 0.9rem;
+}
+
+.logon_reg .top .current {
+    color: #ff6e64;
+    background-color: #fff;
+}
+
+/*********登录注册头部选项卡-end********/
+
+/***********登录主体---begin***********/
+.logon_reg .main {
+    width: 100%;
+}
+
+.main .main-login {
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-login .login-top, .main-register .register-top {
+    width: 100%;
+    padding: 1.5rem 2.5rem 0 2.5rem;
+    box-sizing: border-box;
+}
+
+.main-login .login-top form > div, .main-register .register-top form > div {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333333;
+}
+
+.login-top form .remember {
+    height: 1.5rem;
+    width: 100%;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+input[type=checkbox] {
+    height: 0.9rem;
+    width: 0.9rem;
+    margin: 0 0.25rem 0 0;
+}
+
+.main-login .login-center {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0 2.5rem 0 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.main-login .login-center > span {
+    padding: 0 0.5rem;
+}
+
+/***********登录主体---end***********/
+
+/***********注册主体---begin***********/
+.logon_reg .main {
+    width: 100%;
+}
+
+.main .main-register {
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-register {
+    display: none;
+
+}
+
+.main-register div, .main-login div {
+    color: #000;
+    font-size: 0.8rem;
+}
+
+.message-check {
+    width: 100%;
+}
+
+.message-check input[type=text] {
+    width: 15rem;
+}
+
+.message-check input[type=button] {
+    width: 7.65rem;
+    height: 2rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.invitation-code > span {
+    color: #ff6e64;
+    margin-left: 0.5rem;
+}
+
+/***********注册主体---end***********/
