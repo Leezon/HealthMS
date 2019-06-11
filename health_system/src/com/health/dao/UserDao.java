@@ -1,4 +1,4 @@
-package com.health.dao;
+﻿package com.health.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -99,30 +99,5 @@ public class UserDao {
 		}
 		return user;
 	}
-	
-//	public User findUserById(int id) {
-//		ResultSet rs = null;
-//		Connection conn = null;
-//		PreparedStatement pst = null;
-//		try {
-//			conn = DBUtils.getConnection();
-//
-//			String sql = "select * from user where id ='"+id+"'";
-//
-//			pst = DBUtils.getPst(conn, sql);
-//
-//			rs = pst.executeQuery();
-//			User u=new User();
-//			u.setId(id);
-//			u.setWeight(rs.getInt("weight"));
-//			u.setHeight(rs.getInt("height"));
-//
-//		} catch (SQLException e) {
-//			e.printStackTrace();
-//		} finally {
-//			DBUtils.close(null, pst, conn);
-//		}
-//		return u;
-//	}
 
 }
